@@ -1,0 +1,42 @@
+body {
+  background-color: rebeccapurple;
+  font-family: "Courier New", Courier, monospace;
+}
+#calculator {
+  width: 400px;
+}
+.actions {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.actions li {
+  display: inline-block;
+}
+.actions li button {
+  background-color: rgb(59, 30, 88);
+  color: #fff;
+  border: none;
+  padding: 5px;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.5);
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+#result {
+  height: 50px;
+  line-height: 50px;
+  font-size: 25px;
+  color: #ccc;
+  margin: 10px 0;
+}
+#result:before {
+  content: "Answer: ";
+}
