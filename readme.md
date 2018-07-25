@@ -7,19 +7,19 @@ Entry file `src/index.js`
 
 ### Commands:
 
-> _Runs tests written for calculator_
+_Runs tests written for calculator_
 
 ```
 npm run tests
 ```
 
-> _Webpack bundling with `--mode production`_
+_Webpack bundling with `--mode production`_
 
 ```
 npm run build
 ```
 
-> _Bundles with `--mode development` and starts `webpack-dev-server` with HMR_
+_Bundles with `--mode development` and starts `webpack-dev-server` with HMR_
 
 ```
 npm start
