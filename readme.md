@@ -1,4 +1,4 @@
-## Webpack build configuration boilerplate.
+## Webpack configuration boilerplate.
 
 This is webpack build configuration boilerplate with very simple calculator example.
 It doesn't have two webpack.config files as with 4th version of Webpack we can declare _production_ or _development_ mode from CLI very easily. Also in development mode we can configure HMR with webpack-dev-server just by adding `--hot` flag in CLI command.
